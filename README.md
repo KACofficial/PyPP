@@ -43,7 +43,7 @@ def main():
     current_time: std.time_t = std.time() # std::time_t current_time = std::time();
     std.srand(current_time) # std::srand(current_time);
     rand_int: int = std.rand() % 101 # int rand_int = std::rand() % 101;
-    std.cout << rand_int << std.endl # std::cout << rand_int << std::endl
+    std.cout << rand_int << std.endl # std::cout << rand_int << std::endl;
     return 0 # return 0;
 
 std.set_main_function(main) # tell the library what your main functions is, required
