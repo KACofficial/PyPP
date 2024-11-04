@@ -14,7 +14,7 @@ Porting C++ syntax and basic functions to Python.
 - Very fast, little to no time loss between our `std.cout` vs. the default `print()`.
 
 ## Examples
-#### Below are a list of examples, with comments showing what the C++ version of the code is.
+#### Below are a list of examples, with comments showing what the C++ version of each line is.
 Reading input and printing said input
 ```python
 from cpp.std import std # Always required
